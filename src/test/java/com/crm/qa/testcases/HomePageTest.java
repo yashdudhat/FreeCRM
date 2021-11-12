@@ -6,8 +6,10 @@ import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ContactsPage;
+import com.crm.qa.pages.DealsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
+import com.crm.qa.pages.TasksPage;
 import com.crm.qa.util.TestUtil;
 
 
@@ -16,6 +18,8 @@ public class HomePageTest extends TestBase{
 	HomePage homePage;
 	TestUtil testUtil;
 	ContactsPage contactsPage;
+	DealsPage dealsPage;
+	TasksPage tasksPage;
 	public HomePageTest() {
 		super();
 		
@@ -47,6 +51,18 @@ public class HomePageTest extends TestBase{
 		contactsPage =  homePage.clickOnContactsLink();
 	}
 	
+	@Test(priority = 4)
+	public void verifyDealsLinkTest() {
+		testUtil.switchToframe();
+		dealsPage = homePage.clickOnDealsLink();
+		
+	}
+	
+	public void verifyTasksLinkTest() {
+		
+		testUtil.switchToframe();
+		tasksPage =  homePage.clickOnTasksLink();
+	}
 	
 	@AfterMethod
 	public void tearDown() {

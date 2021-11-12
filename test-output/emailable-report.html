@@ -8,67 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">FREE CRM Application Test Automation Test Suite</th></tr>
-<tr><td><a href="#t0">Free CRM Application Test case</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">116,196</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,504</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FREE CRM Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRM Application Test case &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m0">selectMultipleContactTest</a></td><td rowspan="1">1634323981519</td><td rowspan="1">10070</td></tr><tr class="failedeven"><td><a href="#m1">selectSingleContactTest</a></td><td rowspan="1">1634323962561</td><td rowspan="1">10034</td></tr><tr><th colspan="4">Free CRM Application Test case &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m2">verifyAdvancedSearchTest</a></td><td rowspan="1">1634323955498</td><td rowspan="1">31</td></tr><tr class="passedeven"><td><a href="#m3">verifyContactsTableTest</a></td><td rowspan="1">1634323948449</td><td rowspan="1">26</td></tr><tr class="passedeven"><td><a href="#m4">verifyNewContact</a></td><td rowspan="3">1634324009896</td><td rowspan="3">2822</td></tr><tr class="passedeven"><td><a href="#m5">verifyNewContact</a></td></tr><tr class="passedeven"><td><a href="#m6">verifyNewContact</a></td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m7">verifyContactsLinkTest</a></td><td rowspan="1">1634323940770</td><td rowspan="1">620</td></tr><tr class="passedodd"><td><a href="#m8">verifyHomePageTitle</a></td><td rowspan="1">1634323927806</td><td rowspan="1">6</td></tr><tr class="passedodd"><td><a href="#m9">verifyUserNameTest</a></td><td rowspan="1">1634323934249</td><td rowspan="1">70</td></tr><tr class="passedeven"><td rowspan="3">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m10">LoginPageTitleTest</a></td><td rowspan="1">1634323911001</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m11">LoginTest</a></td><td rowspan="1">1634323918345</td><td rowspan="1">3012</td></tr><tr class="passedeven"><td><a href="#m12">crmLogoImageTest</a></td><td rowspan="1">1634323914816</td><td rowspan="1">69</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.DealsPageTest</td><td><a href="#m0">verifyNewDealsCreated</a></td><td rowspan="1">1636698281940</td><td rowspan="1">2725</td></tr></tbody>
 </table>
-<h2>Free CRM Application Test case</h2><h3 id="m0">com.crm.qa.testcases.ContactsPageTest#selectMultipleContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Amit Kumar&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@type=&apos;checkbox&apos;]&quot;}
-  (Session info: chrome=94.0.4606.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7L49SOM&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\dudha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 929c7143ea646f2cf539ef695605d68e
-*** Element info: {Using=xpath, value=//a[text()=&apos;Amit Kumar&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@type=&apos;checkbox&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.crm.qa.pages.ContactsPage.selectContactByName(ContactsPage.java:48)
-	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactTest(ContactsPageTest.java:65)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.crm.qa.testcases.ContactsPageTest#selectSingleContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Amit Kumar&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@type=&apos;checkbox&apos;]&quot;}
-  (Session info: chrome=94.0.4606.81)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-7L49SOM&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\dudha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: eebb65872752977aca4eb581e0a7bbb6
-*** Element info: {Using=xpath, value=//a[text()=&apos;Amit Kumar&apos;]//parent::td[@class=&apos;datalistrow&apos;]//preceding-sibling::td[@class=&apos;datalistrow&apos;]//input[@type=&apos;checkbox&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.crm.qa.pages.ContactsPage.selectContactByName(ContactsPage.java:48)
-	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactTest(ContactsPageTest.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.crm.qa.testcases.ContactsPageTest#verifyAdvancedSearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.crm.qa.testcases.ContactsPageTest#verifyContactsTableTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.crm.qa.testcases.ContactsPageTest#verifyNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Dr.</td><td>Shwan</td><td>Mandis</td><td>Tinder</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.crm.qa.testcases.ContactsPageTest#verifyNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Mr.</td><td>John</td><td>Cena</td><td>WWE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.crm.qa.testcases.ContactsPageTest#verifyNewContact</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Mrs.</td><td>Rachel</td><td>Taylor</td><td>Facebook</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.crm.qa.testcases.HomePageTest#verifyContactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.crm.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.crm.qa.testcases.HomePageTest#verifyUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.crm.qa.testcases.LoginPageTest#LoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.crm.qa.testcases.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.crm.qa.testcases.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.crm.qa.testcases.DealsPageTest#verifyNewDealsCreated</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>abcd</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
